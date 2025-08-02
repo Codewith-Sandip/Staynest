@@ -1,0 +1,17 @@
+/* Terms page background */
+.bg-terms {
+  background: url('../resources/billa\ img.jpg') center/cover no-repeat;
+  position: relative;
+}
+
+.bg-terms::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(47, 102, 144, 0.7);
+}
+
+.bg-terms .container {
+  position: relative;
+  z-index: 1;
+}

@@ -1,0 +1,26 @@
+<% layout("layouts/boilerplate") %>
+<body>
+    <div class="profile-container">
+    <div class="profile-card">
+      <div class="profile-header">
+        <img src="https://www.creativefabrica.com/wp-content/uploads/2021/09/09/User-avatar-profile-icon-Graphics-17068385-1-1-580x386.jpg" alt="Profile Picture" class="profile-pic">
+        <h2 class="profile-name"><%= User.username.toUpperCase() %></h2>  
+        <p class="profile-role">Welcome to StayNest</p>
+      </div>
+
+      <div class="profile-details">
+        <h3>Details</h3>
+        <ul>
+          <li><strong>Username:</strong> <%= User.username %></li>
+          <li><strong>Email:</strong> <%= User.email %></li>
+          <!-- <li><strong>Phone:</strong> +1 234 567 890</li> -->
+        </ul>
+      </div>
+
+      <div class="profile-footer">
+        <a href=""><button class="btn-profile edit-btn">Edit Profile</button></a>
+        <a href="/logout"><button class="btn-profile logout-btn">Logout</button></a>
+      </div>
+    </div>
+  </div>
+</body>

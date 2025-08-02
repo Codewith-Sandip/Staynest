@@ -1,0 +1,49 @@
+<% layout("/layouts/boilerplate") %>
+<body>
+    <div class="row mb-4 mt-3">
+        <div class="col-8 offset-2">
+    <h1 class="text-color">Add New</h1>
+    <form method="POST" action="/listings" novalidate class="needs-validation" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" name="listing[title]" placeholder="Enter Title" class="form-control" required>
+            <div class="valid-feedback">This is valid</div>
+            <div class="invalid-feedback">This is invalid</div>
+        </div>
+        
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea name="listing[description]" placeholder="Enter Description" class="form-control" required></textarea>
+            <div class="invalid-feedback">This is invalid</div>
+        </div> 
+        
+        <!-- upload image -->
+         <div class="mb-3">
+            <label for="image" class="form-label">Upload Image</label>
+            <input type="file" name="listing[image]" class="form-control" required>
+            <div class="invalid-feedback">This is invalid</div>
+        </div>
+        
+        <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+            <input type="text" name="listing[price]" placeholder="Enter Price" class="form-control" required>
+            <div class="invalid-feedback">This is invalid</div>
+        </div>
+        
+        <div class="mb-3">
+            <label for="country" class="form-label">Country</label>
+            <input type="text" name="listing[country]" placeholder="Enter Country" class="form-control" required>
+            <div class="invalid-feedback">This is invalid</div>
+        </div>
+
+        <div class="mb-3">
+            <label for="location" class="form-label">Location</label>
+            <input type="text" name="listing[location]" placeholder="Enter Location" class="form-control" required>
+            <div class="invalid-feedback">This is invalid</div>
+        </div>
+        <button class="btn btn-dark">Add</button>
+    </form>
+        </div>
+        </div>
+</body>
+</html>
