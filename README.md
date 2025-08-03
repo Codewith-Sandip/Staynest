@@ -1,4 +1,4 @@
-# STAYNEST – A Rental Platform
+# STAYNEST – Find Your Perfect Stay
 
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js)
 ![Express](https://img.shields.io/badge/Express.js-Backend-lightgrey?logo=express)
