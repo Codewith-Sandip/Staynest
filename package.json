@@ -7,6 +7,7 @@
   "description": "StayNest - Find Your Perfect Stay",
   "main": "app.js",
   "scripts": {
+    "dev": "node --watch app.js",
     "start": "node app.js"
   },
   "author": "SANDIP DAS",
