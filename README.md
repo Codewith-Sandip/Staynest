@@ -7,8 +7,7 @@
 
 Hi, I’m **Sandip Das** 👋  
 
-This is my project **Staynest**, a full-stack rental platform.Staynest is a full-stack web application that allows users to explore and manage rental properties such as homes, apartments, and vacation stays.  
-Inspired by platforms like **Airbnb**, Staynest provides a seamless experience for both guests and hosts.
+This is my project **Staynest**, a full-stack rental platform that allows users to explore and manage rental properties such as homes, apartments, and vacation stays. Staynest provides a seamless experience for both guests and hosts.
 
 ---
 
