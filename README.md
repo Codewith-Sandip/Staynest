@@ -54,7 +54,7 @@ Example of `.env` file:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/staynest.git
+   git clone https://github.com/Codewith-Sandip/Staynest.git
 
 2. **Navigate into the project folder:**
    ```bash
